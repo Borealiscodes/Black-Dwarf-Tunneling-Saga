@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Black Dwarf Tunneling Saga — 10²⁵-Year Split-Screen Stellar &amp; Quantum Tunneling Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>⭐ Black Dwarf Tunneling Saga <span class="badge">10²⁵ Years • Q16.16 WKB • 114 BPM</span></h1>
+    <div id="hud-tunnel">Act 1/5 • Quantum Tunnel Events: 0</div>
+  </header>
+
+  <main class="saga-layout">
+    <section class="viewport-panel">
+      <div class="cosmic-banner">
+        <strong id="act-title">Act I: Protostar Collapse &amp; Main Sequence</strong>
+        <div id="act-reaction" class="reaction">Proton–Proton Chain: ¹H + ¹H → ²H → ⁴He</div>
+        <p id="act-prompt">Tap nuclei to fuse Hydrogen → Helium, or draw a Solar Convergence Circle (〇)</p>
+        <blockquote id="vm-whisper">VM-80D (Dormant): 'A protostar ignites.'</blockquote>
+      </div>
+
+      <canvas id="saga-canvas" width="680" height="440"></canvas>
+
+      <div class="toolbar">
+        <button id="btn-fuse">⚛️ Catalyze Fusion / Tunnel Step</button>
+        <button id="btn-audio">Sound: Muted</button>
+      </div>
+    </section>
+
+    <aside class="acts-panel">
+      <h3>5 Cosmic Acts (0 → 10²⁵ yr)</h3>
+      <div class="act-buttons">
+        <button data-act="0">Act I: Main Sequence (10¹⁰ yr)</button>
+        <button data-act="1">Act II: Red Giant (3α → ¹²C)</button>
+        <button data-act="2">Act III: White Dwarf (10¹⁴ yr)</button>
+        <button data-act="3">Act IV: Black Dwarf (10²⁵ yr)</button>
+        <button data-act="4">Act V: Supernova Rebirth</button>
+      </div>
+
+      <h3>Cosmic Run Receipt (SHA-256)</h3>
+      <button id="btn-receipt">Generate Cosmic Receipt</button>
+      <textarea id="receipt-output" rows="6" readonly placeholder="Tap to generate SHA-256 receipt..."></textarea>
+    </aside>
+  </main>
+
+  <script type="module" src="src/saga-app.js"></script>
+</body>
+</html>
