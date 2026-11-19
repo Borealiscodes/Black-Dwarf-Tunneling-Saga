@@ -144,7 +144,7 @@ export function extendQuantumGlyph(state, x, y) {
 }
 
 export function endQuantumGlyph(state) {
-  if (!state.brushStroke || state.brushStroke.length < 5) {
+  if (!state.brushStroke || state.brushStroke.length < 2) {
     return { ...state, brushStroke: null };
   }
 
