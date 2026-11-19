@@ -1,0 +1,10 @@
+{
+  "name": "black-dwarf-tunneling-saga",
+  "version": "1.0.0",
+  "description": "5-Act split-screen stellar lifecycle and quantum tunneling game spanning 10 septillion years, pairing Q16.16 Gamow/WKB nuclear physics, Celestial Glyphs, and 114 BPM calming minimal-techno WebAudio.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/stellar-physics.test.mjs"
+  },
+  "license": "MIT"
+}
